@@ -15,8 +15,8 @@ exports.handler = function(event, context, callback) {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
-        body: BOT_MESSAGE,
-        mediaUrl: array("https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg")
+        body: BOT_MESSAGE
+        // mediaUrl: array("https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg")
       });
     })
   )
