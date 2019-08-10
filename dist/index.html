@@ -13,7 +13,7 @@
 
   <body>
     <div class="content">
-      <p class="successMsg" role="alert" hidden>Messages sent...</p>
+      <p class="successMsg" role="alert" hidden>Happy mushroom pic sent...</p>
       <p class="errorMsg" role="alert" hidden>Something went wrong...</p>
       <div class="dreg-hero">
         <label>Welcome to Dregs Island</label>
@@ -24,7 +24,7 @@
     <footer class="footer">
       <form name="contact" class="form" method="POST" data-netlify="true">
         <h2>Help cheer him up</h2>
-        <button class="btn" type="submit">Send him a happy mushroom!</button>
+        <button class="btn" type="submit">Send him a happy mushroom 🍄!</button>
       </form>
     </footer>
 
@@ -38,9 +38,6 @@
         const SUBMISSION_URL = IS_PRODUCTION
           ? '/'
           : 'http://127.0.0.1:9000/submission-created';
-
-        // disable button to prevent multiple submissions
-        form.querySelector('button').disabled = true;
 
         try {
           const response = await fetch(SUBMISSION_URL, {
