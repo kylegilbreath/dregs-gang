@@ -53,6 +53,13 @@
           } else {
             document.querySelector('.errorMsg').hidden = false;
           }
+
+          setTimeout(function(){
+            if ($('.successMsg').length > 0) {
+              $('.successMsg').remove();
+            }
+          }, 5000)  
+
         } catch (e) {
           console.error(e);
         }
