@@ -61,8 +61,9 @@ h1 {
   transition-timing-function: ease-out;
   will-change: transform,filter;
   z-index: 2;
-  font-size: 18px;
+  font-size: 24px;
   border: none;
+  color: white;
 }
 
 .btn:disabled {
