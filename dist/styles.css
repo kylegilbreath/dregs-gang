@@ -87,8 +87,8 @@ h1 {
   padding: 1.5em;
   text-align: center;
   color: #fff;
-  border-bottom: 6px solid #000;
   font-weight: 800;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .errorMsg {
@@ -96,7 +96,11 @@ h1 {
 }
 
 .successMsg {
-  background: #4aa52e;
+  background: black;
+}
+
+img.gif {
+  width: 100%;
 }
 
 

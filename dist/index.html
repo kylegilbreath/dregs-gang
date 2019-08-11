@@ -13,11 +13,11 @@
 
   <body>
     <div class="content">
-      <div class="successMsg" role="alert" hidden>
+      <p class="successMsg" role="alert" hidden>
         <img src="/assets/jon-franks.gif" alt="Jon Franks" height="270" width="480">
         <h2>🍄 pic is on the way...</h2>
         <h3>Don't stop now! Keep sending the good 🍄 vibes!</h3>
-      </div>
+      </p>
       <p class="errorMsg" role="alert" hidden>Something went wrong. Please refresh the page and try again.</p>
       <div class="dreg-hero">
         <label>Welcome to Dregs Island</label>
@@ -54,9 +54,9 @@
 
           if (response.status === 200) {
             document.querySelector('.successMsg').hidden = false;
-             // setTimeout(function() { 
-               // document.querySelector('.successMsg').hidden = true;
-             // }, 5000);
+            setTimeout(function() { 
+              document.querySelector('.successMsg').hidden = true;
+            }, 5000);
           } else {
             document.querySelector('.errorMsg').hidden = false;
           } 
