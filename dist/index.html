@@ -13,8 +13,12 @@
 
   <body>
     <div class="content">
-      <p class="successMsg" role="alert" hidden>Happy mushroom pic sent...</p>
-      <p class="errorMsg" role="alert" hidden>Something went wrong...</p>
+      <div class="successMsg" role="alert" hidden>
+        <img src="/assets/jon-franks.gif" alt="Jon Franks" height="270" width="480">
+        <h2>🍄 pic is on the way...</h2>
+        <h3>Don't stop now! Keep sending the good 🍄 vibes!</h3>
+      </div>
+      <p class="errorMsg" role="alert" hidden>Something went wrong. Please refresh the page and try again.</p>
       <div class="dreg-hero">
         <label>Welcome to Dregs Island</label>
         <h1>Jon Franks</h1>
@@ -24,7 +28,7 @@
     <footer class="footer">
       <form name="contact" class="form" method="POST" data-netlify="true">
         <h2>Help cheer him up</h2>
-        <button class="btn" type="submit">Send him a happy mushroom 🍄!</button>
+        <button class="btn" type="submit">Send him a happy mushroom 🍄</button>
       </form>
     </footer>
 
@@ -50,13 +54,11 @@
 
           if (response.status === 200) {
             document.querySelector('.successMsg').hidden = false;
-            setTimeout(function() { 
-              document.querySelector('.successMsg').hidden = true;
-              console.log("I see you");
-            }, 3000);
+             // setTimeout(function() { 
+               // document.querySelector('.successMsg').hidden = true;
+             // }, 5000);
           } else {
             document.querySelector('.errorMsg').hidden = false;
-            setTimeout(function(){ alert("Hello"); }, 3000);
           } 
 
         } catch (e) {
