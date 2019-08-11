@@ -50,20 +50,19 @@
 
           if (response.status === 200) {
             document.querySelector('.successMsg').hidden = false;
+            setTimeout(function() { 
+              alert("Hello");
+              console.log("I see you");
+            }, 3000);
           } else {
             document.querySelector('.errorMsg').hidden = false;
+            setTimeout(function(){ alert("Hello"); }, 3000);
           } 
 
         } catch (e) {
           console.error(e);
         }
       });
-
-      setTimeout(function(){
-        $('.successMsg').remove();
-        console.log("I see you");
-        document.querySelector('.successMsg').hidden = true;
-      }, 2000);
 
     </script>
   </body>
