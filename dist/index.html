@@ -51,7 +51,7 @@
           if (response.status === 200) {
             document.querySelector('.successMsg').hidden = false;
             setTimeout(function() { 
-              alert("Hello");
+              document.querySelector('.successMsg').hidden = true;
               console.log("I see you");
             }, 3000);
           } else {
