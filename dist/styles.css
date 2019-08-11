@@ -24,6 +24,8 @@ body {
   flex-shrink: 0;
   padding-bottom: 30px;
   color: white;
+  padding-top: 30px;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
 }
 
 h1 {
