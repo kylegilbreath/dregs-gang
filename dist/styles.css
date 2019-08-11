@@ -48,7 +48,7 @@ h1 {
 }
 
 .btn {
-  background-image: linear-gradient(#fa7e29 0%,#f6682f 80%,#f6682f 100%);
+  background-color: #6395d4;
   border-radius: 4px;
   box-sizing: border-box;
   display: inline-block;
@@ -72,7 +72,7 @@ h1 {
 }
 
 .btn:hover {
-  background-image: linear-gradient(-25deg,#fc3d7c 0%,#f76a34 80%,#f76a34 100%);
+  background-color: #345f94;
   filter: brightness(.9) contrast(1.2);
   transform: scale(1);
 }
