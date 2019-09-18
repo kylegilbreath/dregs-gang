@@ -19,7 +19,6 @@ var items = [
   "https://i.redd.it/cwxogh8lz8s01.jpg",
   "https://mycotopia.net/uploads/monthly_01_2008/post-13626-13818573074.jpg",
   "http://www.naturefoto2000.com/image/Phallus%20impudicus%20IMG_0021xnM.jpg",
-  "https://static.fjcdn.com/pictures/Mushroom_73dc01_5423255.jpg",
   "https://i.imgur.com/ajHd330.jpg",
   "https://i.imgur.com/R1AOUyE.jpg",
   "https://freerangestock.com/sample/81509/penis-mushroom-and-mulch.jpg"
