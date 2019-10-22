@@ -39,7 +39,7 @@ exports.handler = function(event, context, callback) {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
-        body: "Enjoy these bare chested beauts...",
+        body: "Enjoy this bare chested beaut...",
         mediaUrl: [random_item(items)]
       });
     })
