@@ -15,18 +15,21 @@ function random_item(items)
 }
 
 var items = [
-  "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F247657%252Fef65f3bb443344f58a1cd2045f7b57b5.jpg%252F950x534__filters%253Aquality%252880%2529.jpg?signature=cBsgBcPBjFKetRfm-RCfM7qVBvU=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com",
-  "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/10/17/11/ron-swanson.jpg?w968h681",
-  "https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/07/2016_RonSwanson_Press_210716-1-920x610.jpg",
-  "https://babylonbee.com/img/articles/article-3561-1.jpg",
-  "https://cnet4.cbsistatic.com/img/IuoT6okn3OLDSKmPnUm85O9-FjE=/1200x675/2019/08/07/64092893-7317-41d2-b052-605992abf147/fullhouse3.jpg",
-  "https://cnet2.cbsistatic.com/img/fSylOq8DTDC7A5xLU7HjuZDnCzY=/1092x0/2019/08/07/441690a9-4ecc-4c05-b52c-7d0afaea598a/fullhouse1.jpg",
-  "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nick-offerman-full-house-deepfake-1565210570.jpg?crop=0.491xw:0.983xh;0.509xw,0&resize=480:*",
-  "https://i.etsystatic.com/9766509/r/il/97e9c6/1847154113/il_570xN.1847154113_8x3w.jpg",
-  "http://swansonquotes.com/wp-content/uploads/s07-ep11-samething-1000x500.jpg",
-  "https://miro.medium.com/max/2756/1*qCBb_63HD7uMLS6t03NXuQ.jpeg",
-  "https://www.birchbox.com/images/uploads/how_to_grow_a_mustache_nick_offerman.jpg",
-  "https://cdn.shopify.com/s/files/1/0065/7670/1509/products/ron_swanson_mona_lisa_face_picture.jpg?v=1545401707"
+  "https://i.pinimg.com/originals/9f/db/95/9fdb95b3fed625d71804e078df5c928b.jpg",
+  "https://i.pinimg.com/originals/da/d4/f7/dad4f7887eaa36ab6f73682a9b491f67.jpg",
+  "https://www.usmagazine.com/wp-content/uploads/1400587628_terry-crews-jimmy-fallon-shirtless-350.jpg?w=350&h=441&crop=1",
+  "https://i.pinimg.com/originals/ec/02/1a/ec021a2d9c4968f8ab783fe55c4645ac.jpg",
+  "https://i.imgur.com/Ti28XbK.jpg",
+  "https://images-na.ssl-images-amazon.com/images/I/51qtCwdB9bL.jpg",
+  "https://i.dailymail.co.uk/i/pix/2013/10/18/article-0-04C087450000044D-249_634x604.jpg",
+  "https://i.pinimg.com/originals/88/e6/1e/88e61ecb1998d46f8c42dedaa30804ec.jpg",
+  "https://i.pinimg.com/736x/68/e2/c9/68e2c91e564b007fac3b786f3469685f.jpg",
+  "https://media.istockphoto.com/photos/big-man-little-hat-large-tummy-picture-id154202282?k=6&m=154202282&s=612x612&w=0&h=8qLqdlbqXhydNUMub5cb8Zm7VQERkDRdSb1HJ-fpZ_M=",
+  "https://www.usmagazine.com/wp-content/uploads/2019/02/adam-levine-bro-tattoo.jpg",
+  "https://i.pinimg.com/564x/ae/39/b8/ae39b89e3da0e9645560a18081b4ca91.jpg",
+  "https://broscience.com/wp-content/uploads/2015/02/409268_10152215844025105_1405678018_n1.jpg",
+  "https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/07/16/a6e48a02-889d-11e8-8608-b7163509a377_1280x720_113228.jpg?itok=X_PusDnK",
+  "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/6745/326537-markymk4i1722335.jpg"
 ];
 console.log(random_item(items));
 
@@ -36,7 +39,7 @@ exports.handler = function(event, context, callback) {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
-        body: "Believe in the stache...",
+        body: "Enjoy these bare chested beauts...",
         mediaUrl: [random_item(items)]
       });
     })
