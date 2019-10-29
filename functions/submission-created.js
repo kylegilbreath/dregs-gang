@@ -15,21 +15,24 @@ function random_item(items)
 }
 
 var items = [
-  "https://i.pinimg.com/originals/9f/db/95/9fdb95b3fed625d71804e078df5c928b.jpg",
-  "https://i.pinimg.com/originals/da/d4/f7/dad4f7887eaa36ab6f73682a9b491f67.jpg",
-  "https://www.usmagazine.com/wp-content/uploads/1400587628_terry-crews-jimmy-fallon-shirtless-350.jpg?w=350&h=441&crop=1",
-  "https://i.pinimg.com/originals/ec/02/1a/ec021a2d9c4968f8ab783fe55c4645ac.jpg",
-  "https://i.imgur.com/Ti28XbK.jpg",
-  "https://images-na.ssl-images-amazon.com/images/I/51qtCwdB9bL.jpg",
-  "https://i.dailymail.co.uk/i/pix/2013/10/18/article-0-04C087450000044D-249_634x604.jpg",
-  "https://i.pinimg.com/originals/88/e6/1e/88e61ecb1998d46f8c42dedaa30804ec.jpg",
-  "https://i.pinimg.com/736x/68/e2/c9/68e2c91e564b007fac3b786f3469685f.jpg",
-  "https://media.istockphoto.com/photos/big-man-little-hat-large-tummy-picture-id154202282?k=6&m=154202282&s=612x612&w=0&h=8qLqdlbqXhydNUMub5cb8Zm7VQERkDRdSb1HJ-fpZ_M=",
-  "https://www.usmagazine.com/wp-content/uploads/2019/02/adam-levine-bro-tattoo.jpg",
-  "https://i.pinimg.com/564x/ae/39/b8/ae39b89e3da0e9645560a18081b4ca91.jpg",
-  "https://broscience.com/wp-content/uploads/2015/02/409268_10152215844025105_1405678018_n1.jpg",
-  "https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/07/16/a6e48a02-889d-11e8-8608-b7163509a377_1280x720_113228.jpg?itok=X_PusDnK",
-  "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/6745/326537-markymk4i1722335.jpg"
+  "https://larrybrownsports.com/wp-content/uploads/2019/08/daniel-jones.jpg",
+  "https://pbs.twimg.com/media/ECIXJ4MXsAASdcf.jpg:large",
+  "https://s.yimg.com/uu/api/res/1.2/nxqHO8tJBwCEDonVhc6pLA--~B/aD0yNjk2O3c9NDA0NDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-09/f3d9be70-e0a5-11e9-bffb-6121339df3e8",
+  "https://thefootballgirl.com/wp-content/uploads/2019/09/daniel-jones-dimes.jpg",
+  "https://i.imgur.com/ZTzCZRQ.jpg?1",
+  "https://s3.amazonaws.com/kulturehub-blob/uploads/2019/10/Untitled-design-62-770x385.jpg",
+  "https://i.iheart.com/v3/re/new_assets/5d8892e9410b565f2350a3d2?ops=max(650,0),quality(80)",
+  "https://media.nbcnewyork.com/images/1200*719/daniel_jones_0.jpg",
+  "https://cdn.vox-cdn.com/thumbor/gMTMxYRSc4V3-GOFsCdCV6u0DNc=/0x0:4311x2874/1200x800/filters:focal(1435x570:2123x1258)/cdn.vox-cdn.com/uploads/chorus_image/image/65263026/usa_today_13365895.0.jpg",
+  "https://cdn.vox-cdn.com/thumbor/fY88Cp0-gqMWRA9psFDuJDlLctM=/0x0:1987x2760/1200x800/filters:focal(1037x418:1353x734)/cdn.vox-cdn.com/uploads/chorus_image/image/65493474/1180316983.jpg.0.jpg",
+  "https://www.gannett-cdn.com/presto/2019/04/23/PROC/1ce94f00-17d3-449b-946e-67df63fcd0d3-AP_19085729077030.jpg?width=520&height=390&fit=bounds&auto=webp",
+  "https://usatbroncoswire.files.wordpress.com/2019/04/daniel-jones-duke.jpg",
+  "https://static01.nyt.com/images/2019/08/06/sports/00jones-sub4/merlin_158579094_484648c1-3da7-49fb-8a9b-0d702b19fc86-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+  "https://www.washingtonpost.com/resizer/0SCJh5Knu12Q22iXONgCJmMrRAs=/767x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IFFTR3W5S4I6TPT7JTEFAF6DN4.jpg",
+  "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/giants/erioqjjphzoow33276cn",
+  "https://goduke.com/images/2018/4/16/PKXSARQEGHKXZEN.20180416210817.jpg?width=300",
+  "https://pbs.twimg.com/media/ECmLRpdXUAIykKY.jpg",
+  "https://i.imgur.com/avhQavt.jpg"
 ];
 console.log(random_item(items));
 
@@ -39,7 +42,7 @@ exports.handler = function(event, context, callback) {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
-        body: "Enjoy this bare chested beaut...",
+        body: "Behold greatness...",
         mediaUrl: [random_item(items)]
       });
     })
