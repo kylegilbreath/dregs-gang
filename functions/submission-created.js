@@ -27,7 +27,8 @@ var items = [
   "https://i.dailymail.co.uk/i/pix/2014/12/30/2454E1FE00000578-0-image-a-31_1419957965191.jpg",
   "https://media1.popsugar-assets.com/files/thumbor/cPy8N-ckVv8WpqS6ealDHHdj6Vw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/10/08/729/n/1922243/5fa9e1a93411f5dc_Australian_Firefighters_Calendar_2020_gifts_greeting_cards_christmas_presents_birthday_mothers_day_fathers_day_valentines_day_xmas_1/i/shirtless-australian-firefighters-cat-dog-animal-calendars.jpg",
   "https://media1.popsugar-assets.com/files/thumbor/YPpx08Mxs9elV-sR_IbQj-cfGE4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/10/08/731/n/1922243/52f7d1ec2fdf2554_Australian_Firefighters_Calendar_2020_gifts_greeting_cards_christmas_presents_birthday_mothers_day_fathers_day_valentines_day_xmas_15_2_/i/shirtless-australian-firefighters-cat-dog-animal-calendars.jpg",
-  "https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/10/sei_34241768-d771.jpg?quality=90&strip=all&zoom=1&resize=644%2C858&ssl=1"
+  "https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/10/sei_34241768-d771.jpg?quality=90&strip=all&zoom=1&resize=644%2C858&ssl=1",
+  "https://www.outincanberra.com.au/wp-content/uploads/2017/12/fire.jpg"
 ];
 console.log(random_item(items));
 
