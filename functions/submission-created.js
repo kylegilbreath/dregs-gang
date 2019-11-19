@@ -29,7 +29,12 @@ var items = [
   "https://i.redd.it/3ka0v7358lb11.jpg",
   "https://hips.hearstapps.com/del.h-cdn.co/assets/15/49/1449248014-67dbz29l.jpg?crop=1xw:1.0xh;center,top&resize=480:*",
   "https://media.pri.org/s3fs-public/styles/story_main/public/passion_fruit.jpg?itok=AR0rlzJT",
-  "https://i.pinimg.com/originals/00/91/03/00910359b2c51cbcf301783006ef506c.jpg"
+  "https://i.pinimg.com/originals/00/91/03/00910359b2c51cbcf301783006ef506c.jpg",
+  "https://hips.hearstapps.com/cos.h-cdn.co/assets/15/13/980x1469/gallery-1427491065-ht-tumblr-150327.jpg?resize=480:*",
+  "https://hips.hearstapps.com/cos.h-cdn.co/assets/15/12/1024x767/gallery-1426531402-ht-ten-eyewitness-news-150316.jpg?resize=980:*",
+  "https://hips.hearstapps.com/cos.h-cdn.co/assets/cm/14/25/539ff49718d08_-_cos-03-penis-shaped-rock-mdn.jpg?resize=768:*",
+  "https://hips.hearstapps.com/cos.h-cdn.co/assets/cm/14/25/539ff49544b22_-_cos-08-magnolia-tree-fruit-de.jpg?resize=768:*",
+
 ];
 console.log(random_item(items));
 
@@ -39,7 +44,7 @@ exports.handler = function(event, context, callback) {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
-        body: "It's getting hot in herre",
+        body: "That's a girthy boy",
         mediaUrl: [random_item(items)]
       });
     })
