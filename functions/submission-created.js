@@ -15,20 +15,21 @@ function random_item(items)
 }
 
 var items = [
-  "https://i0.wp.com/metro.co.uk/wp-content/uploads/2018/10/sec_34383367-ef73.jpg?quality=90&strip=all&zoom=1&resize=644%2C338&ssl=1",
-  "https://cheesecake.articleassets.meaww.com/243631/uploads/a02a0140-e9c4-11e9-a4e5-fddddeddd5ab_800_420.png",
-  "https://i.pinimg.com/originals/c6/2e/f8/c62ef89a25d1b752d9fcd6c1da69875b.jpg",
-  "https://d1p0ixy3dp39l0.cloudfront.net/content/wp-content/uploads/2016/07/Cale-Victorian-bonus-page.jpg",
-  "https://d1p0ixy3dp39l0.cloudfront.net/content/wp-content/uploads/2016/07/Jeff-Victorian-bonus-pages.jpg",
-  "https://cdn.newsapi.com.au/image/v1/2430569768509f69217f7bfac125cf09?width=650",
-  "https://gay.blog.br/50-tons-de-boy-magia/calendario-filantropico-com-bombeiros-australianos-ja-esta-a-venda/attachment/2019-hot-firefighters-www-australianfirefighterscalendar-com2027-720x960/",
-  "https://gay.blog.br/50-tons-de-boy-magia/calendario-filantropico-com-bombeiros-australianos-ja-esta-a-venda/attachment/2019-hot-firefighters-www-australianfirefighterscalendar-com2023-copy-720x960/",
-  "https://www.virascoop.com/wp-content/uploads/2017/10/australian-firefighters-pose-with-animals-for-charity-and-its-hotter-than-the-fires-they-extinguish-6.jpg",
-  "https://i.dailymail.co.uk/i/pix/2014/12/30/2454E1FE00000578-0-image-a-31_1419957965191.jpg",
-  "https://media1.popsugar-assets.com/files/thumbor/cPy8N-ckVv8WpqS6ealDHHdj6Vw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/10/08/729/n/1922243/5fa9e1a93411f5dc_Australian_Firefighters_Calendar_2020_gifts_greeting_cards_christmas_presents_birthday_mothers_day_fathers_day_valentines_day_xmas_1/i/shirtless-australian-firefighters-cat-dog-animal-calendars.jpg",
-  "https://media1.popsugar-assets.com/files/thumbor/YPpx08Mxs9elV-sR_IbQj-cfGE4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/10/08/731/n/1922243/52f7d1ec2fdf2554_Australian_Firefighters_Calendar_2020_gifts_greeting_cards_christmas_presents_birthday_mothers_day_fathers_day_valentines_day_xmas_15_2_/i/shirtless-australian-firefighters-cat-dog-animal-calendars.jpg",
-  "https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/10/sei_34241768-d771.jpg?quality=90&strip=all&zoom=1&resize=644%2C858&ssl=1",
-  "https://www.outincanberra.com.au/wp-content/uploads/2017/12/fire.jpg"
+  "https://pbs.twimg.com/media/CD5v-S1UkAAGYnt.png",
+  "https://i.imgur.com/cExTcDR.jpg",
+  "https://cdn.ebaumsworld.com/mediaFiles/picture/2183782/84689433.jpg",
+  "https://media.virascoop.com/images/2017/09/29093803/defintely-not-a-penis.jpg",
+  "https://cdn.mpasho.co.ke/wp-content/uploads/2018/01/maxresdefault-4.jpg",
+  "http://uk.cc.uat-sites.vimn.com/sites/default/files/styles/image-w-520-h-520-scale/public/cc_uk/galleries/large/2016/03/23/dick-insta-2.jpg?itok=dWeaj8mc",
+  "https://nexter.org/wp-content/uploads/2018/05/funny-animals-pics4.jpg",
+  "https://i.pinimg.com/originals/85/f0/58/85f058813dfe428e32eee96532db0486.jpg",
+  "https://cdn.ebaumsworld.com/mediaFiles/picture/2369109/84679930.jpg",
+  "https://preview.redd.it/oezr0gqr09f01.jpg?width=540&s=03b33f6d4ebfb869d2248f730ad5a47e8c22df1d",
+  "https://pbs.twimg.com/media/A94SisfCAAAlWfI.jpg",
+  "https://i.redd.it/3ka0v7358lb11.jpg",
+  "https://hips.hearstapps.com/del.h-cdn.co/assets/15/49/1449248014-67dbz29l.jpg?crop=1xw:1.0xh;center,top&resize=480:*",
+  "https://media.pri.org/s3fs-public/styles/story_main/public/passion_fruit.jpg?itok=AR0rlzJT",
+  "https://i.pinimg.com/originals/00/91/03/00910359b2c51cbcf301783006ef506c.jpg"
 ];
 console.log(random_item(items));
 
